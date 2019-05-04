@@ -1,0 +1,16 @@
+:root {
+    --color1: rgb(18, 234, 133);
+    --color2: rgb(143, 168, 21);
+    --color3: rgb(9, 124, 36);
+    --color4: rgb(252, 5, 83);
+}
+
+#card {
+    background: url(https: //www.transparenttextures.com/patterns/60-lines.png);
+    transition: .5s ease;
+}
+
+#run{
+    min-height: 70px;
+    min-width: 70px;
+}

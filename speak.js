@@ -1,11 +1,11 @@
 var synth = window.speechSynthesis;
 
 
-function readText(text,options) {
+function readText(text,{ voice, rate, pitch }) {
     
-    var voice = options.voice || 5;
-    var pitch = options.pitch || 1;
-    var rate = options.rate || 1;
+    var voice = voice || 8; //old 13
+    var pitch = pitch || 1;
+    var rate = rate || 1;
     
 
     setTimeout(function () {
